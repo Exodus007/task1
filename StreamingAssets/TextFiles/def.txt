@@ -1,0 +1,15 @@
+1.Prefab
+->Prefabs are a pre-fabricated object template. It is a special type of objet that gives full control of configuring the 
+objects and later we can reuse anytime in our game.. 
+2.Asset Bundle
+->An AssetBundle is content that is stored separately from a main game or application and loaded 
+(or downloaded, in the case of mobile and online apps) at runtime. 
+This helps minimize the impact on network and system resources by allowing customers to download and install only the parts they need.
+
+3.Resources Folder
+->It is a reserved folder within unity with some prebuilt function provided by unity to load all your given asset!
+->It is good to use in some scenario like initialization time.. 
+but
+->Improper use of the Resources folder can bloat the size of a project’s build, 
+lead to uncontrollable excessive memory utilization, and significantly increase application startup times.
+->Resource.Load is heavy memory operation so dont use in between games.
